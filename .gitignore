@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Flask instance folder
+instance/
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# Mac/Linux system files
+.DS_Store
+*.swp
+
+# VS Code
+.vscode/
+
+# PyInstaller
+*.spec
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Test cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+
+# Pipenv
+Pipfile.lock
+
+# MyPy
+.mypy_cache/
+
+# dotenv
+.env
+.env.*
+
+# Local .idea files (PyCharm)
+.idea/
